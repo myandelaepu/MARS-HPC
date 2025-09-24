@@ -17,3 +17,10 @@ pip install -r requirements.txt
 ## Datasets
 This project uses publicly available HPC workload traces from ALCF.  
 Download the datasets here: [ALCF Workload Data](https://reports.alcf.anl.gov/data/index.html).
+
+## Usage
+python train.py --config configs/mars.yaml
+
+## Evaluate
+python evaluate.py --checkpoint checkpoints/mars.pth
+
